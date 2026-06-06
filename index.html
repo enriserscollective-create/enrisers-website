@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ENRISERS – Empower. Enlighten. Elevate.</title>
+  <meta name="description" content="ENRISERS is a youth empowerment collective from Alangulam, Tenkasi, Tamil Nadu. Free career guidance, mentorship and workshops for 11th & 12th standard students."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="logo.png" alt="ENRISERS Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+        <div class="logo-fallback" style="display:none">ENRISERS</div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#what-we-do">What We Do</a></li>
+        <li><a href="#workshop">Workshop</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#workshop" class="nav-cta">Register Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-inner">
+  <!-- Mobile Hero Logo -->
+  <div class="hero-mobile-logo">
+    <img src="logo.png" alt="ENRISERS" onerror="this.style.display='none'"/>
+  </div>
+  <div class="hero-content">
+        <div class="hero-badge reveal-up delay-1">
+          <span class="badge-dot"></span>
+          From Alangulam, For Every Youth of Tamil Nadu
+        </div>
+        <h1 class="hero-title reveal-up delay-2">
+          <span class="title-line">ENRISERS</span>
+        </h1>
+        <p class="hero-tagline reveal-up delay-3">
+          <span class="gold">Padippom</span> • <span class="gold">Pagirvom</span> • <span class="gold">Parappom</span>
+        </p>
+        <p class="hero-sub reveal-up delay-4">
+          Every dream deserves an opportunity.<br/>Every youth deserves guidance.
+        </p>
+        <div class="hero-btns reveal-up delay-5">
+          <a href="#workshop" class="btn btn-primary">Register for Workshop</a>
+          <a href="#about" class="btn btn-outline">Learn More</a>
+        </div>
+        <div class="hero-stats reveal-up delay-6">
+          <div class="stat">
+            <span class="stat-num" data-target="8">0</span>
+            <span class="stat-label">Founding Members</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num infinity">∞</span>
+            <span class="stat-label">Dreams to Guide</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num" data-target="1">0</span>
+            <span class="stat-label">Big Workshop Coming</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-logo-wrap reveal-right">
+        <div class="hero-logo-float">
+          <div class="logo-glow-ring"></div>
+          <img src="logo.png" alt="ENRISERS" class="hero-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+          <div class="hero-logo-fallback" style="display:none">
+            <span>E</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll to discover</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee-bar">
+    <div class="marquee-track">
+      <span>EMPOWER</span><span class="sep">•</span>
+      <span>ENLIGHTEN</span><span class="sep">•</span>
+      <span>ELEVATE</span><span class="sep">•</span>
+      <span>DREAM IT</span><span class="sep">•</span>
+      <span>BELIEVE IT</span><span class="sep">•</span>
+      <span>BUILD IT</span><span class="sep">•</span>
+      <span>RISE TOGETHER</span><span class="sep">•</span>
+      <span>EMPOWER</span><span class="sep">•</span>
+      <span>ENLIGHTEN</span><span class="sep">•</span>
+      <span>ELEVATE</span><span class="sep">•</span>
+      <span>DREAM IT</span><span class="sep">•</span>
+      <span>BELIEVE IT</span><span class="sep">•</span>
+      <span>BUILD IT</span><span class="sep">•</span>
+      <span>RISE TOGETHER</span><span class="sep">•</span>
+    </div>
+  </div>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-label reveal-up">Our Story</div>
+      <h2 class="section-title reveal-up delay-1">Who We Are</h2>
+      <p class="section-subtitle reveal-up delay-2">
+        We are 8 passionate young people from Alangulam, Tenkasi District — united by one belief: no student should lose their future simply because no one showed them the way.
+      </p>
+
+      <div class="about-grid">
+        <div class="about-text reveal-left">
+          <p>ENRISERS was born from a simple question: <em>"What if someone had guided us earlier?"</em> We visit schools, spend one hour with students, and open their eyes to the possibilities ahead — completely free of charge.</p>
+          <p>We don't just talk. We listen, discover strengths, and walk alongside every student who needs long-term mentorship — in Engineering, Medicine, Arts, Fine Arts, and every field in between.</p>
+          <p>Inspired by the life and vision of Dr. APJ Abdul Kalam, we believe that the fire of a guided dream can light up not just one life, but an entire community.</p>
+          <div class="belief-card reveal-up delay-2">
+            <div class="belief-icon">🌱</div>
+            <p>When one youth rises → the family rises → the community prospers → society transforms.</p>
+          </div>
+        </div>
+        <div class="about-visuals reveal-right">
+          <div class="kalam-quote-card">
+            <div class="kalam-avatar">APJ</div>
+            <blockquote>
+              "You have to dream before your dreams can come true."
+            </blockquote>
+            <cite>— Dr. A.P.J. Abdul Kalam</cite>
+          </div>
+          <div class="pillars-badges">
+            <div class="pillar-badge reveal-up delay-1"><span>🎯</span> Career Guidance</div>
+            <div class="pillar-badge reveal-up delay-2"><span>🤝</span> Mentorship</div>
+            <div class="pillar-badge reveal-up delay-3"><span>💡</span> Skill Development</div>
+            <div class="pillar-badge reveal-up delay-4"><span>🌐</span> Opportunity Connect</div>
+            <div class="pillar-badge reveal-up delay-5"><span>🏘️</span> Community Building</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHAT WE DO ============ -->
+  <section class="section wwd-section" id="what-we-do">
+    <div class="container">
+      <div class="section-label reveal-up">Our Pillars</div>
+      <h2 class="section-title reveal-up delay-1">What We Do</h2>
+      <p class="section-subtitle reveal-up delay-2">Five pillars that hold up every student's future.</p>
+      <div class="wwd-grid">
+        <div class="wwd-card reveal-up delay-1">
+          <div class="wwd-icon">🎯</div>
+          <h3>Career Guidance</h3>
+          <p>We visit schools and conduct free 1-hour career awareness sessions, introducing students to pathways they never knew existed.</p>
+        </div>
+        <div class="wwd-card reveal-up delay-2">
+          <div class="wwd-icon">🤝</div>
+          <h3>Mentorship</h3>
+          <p>We identify students who need deeper support and provide long-term mentorship across Engineering, Medicine, Arts, and all career fields.</p>
+        </div>
+        <div class="wwd-card reveal-up delay-3">
+          <div class="wwd-icon">💡</div>
+          <h3>Skill Development</h3>
+          <p>Workshops focused on communication, AI literacy, and personal development — skills that schools rarely teach but life always demands.</p>
+        </div>
+        <div class="wwd-card reveal-up delay-4">
+          <div class="wwd-icon">🌐</div>
+          <h3>Opportunity Connect</h3>
+          <p>We bridge students with scholarships, programs, competitions, and real-world opportunities that match their strengths and aspirations.</p>
+        </div>
+        <div class="wwd-card reveal-up delay-5">
+          <div class="wwd-icon">🏘️</div>
+          <h3>Community Building</h3>
+          <p>We build a network of rising youth who support, inspire, and lift each other — because no one should climb alone.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORKSHOP ============ -->
+  <section class="section workshop-section" id="workshop">
+    <div class="container">
+      <div class="section-label reveal-up">Upcoming Event</div>
+      <h2 class="section-title reveal-up delay-1">The ENRISERS Workshop</h2>
+      <p class="section-subtitle reveal-up delay-2">One day. Many futures. Absolutely free.</p>
+
+      <div class="workshop-info-cards">
+        <div class="info-card reveal-up delay-1">
+          <div class="info-icon">📅</div>
+          <div class="info-label">Date</div>
+          <div class="info-value">1st Week of July 2025</div>
+          <div class="info-note">Exact date TBA</div>
+        </div>
+        <div class="info-card reveal-up delay-2">
+          <div class="info-icon">🎤</div>
+          <div class="info-label">Chief Guest</div>
+          <div class="info-value">To Be Announced</div>
+          <div class="info-note">Special guest speaker</div>
+        </div>
+        <div class="info-card reveal-up delay-3">
+          <div class="info-icon">🎓</div>
+          <div class="info-label">Who Can Join</div>
+          <div class="info-value">11th & 12th Std</div>
+          <div class="info-note">All streams welcome</div>
+        </div>
+        <div class="info-card reveal-up delay-4">
+          <div class="info-icon">💸</div>
+          <div class="info-label">Registration Fee</div>
+          <div class="info-value gold">FREE</div>
+          <div class="info-note">Always. No exceptions.</div>
+        </div>
+      </div>
+
+      <div class="workshop-steps reveal-up delay-2">
+        <h3 class="steps-title">What Happens at the Workshop</h3>
+        <div class="steps-row">
+          <div class="step">
+            <div class="step-num">01</div>
+            <div class="step-content">
+              <h4>Guest Speaker Session</h4>
+              <p>A professional shares their journey — inspiring students with real stories of struggle and success.</p>
+            </div>
+          </div>
+          <div class="step-arrow">→</div>
+          <div class="step">
+            <div class="step-num">02</div>
+            <div class="step-content">
+              <h4>Career Awareness</h4>
+              <p>Deep-dive into career paths across all fields — from medicine and engineering to arts and beyond.</p>
+            </div>
+          </div>
+          <div class="step-arrow">→</div>
+          <div class="step">
+            <div class="step-num">03</div>
+            <div class="step-content">
+              <h4>Strength Discovery</h4>
+              <p>Students uncover their natural strengths and match them to the right career pathways.</p>
+            </div>
+          </div>
+          <div class="step-arrow">→</div>
+          <div class="step">
+            <div class="step-num">04</div>
+            <div class="step-content">
+              <h4>Long-Term Mentorship</h4>
+              <p>Students who need more support are identified and guided personally by the ENRISERS team.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- REGISTRATION FORM -->
+      <div class="form-wrap reveal-up delay-3" id="register">
+        <div class="form-header">
+          <h3>Register for the Workshop</h3>
+          <p>Fill in the form below. We'll reach out on WhatsApp to confirm your spot.</p>
+        </div>
+        <form id="registrationForm" class="reg-form" novalidate>
+          <!-- IMPORTANT: Replace 2c7d9a84-3e54-4db4-bb5c-20b919e12aa2 with your actual key from web3forms.com -->
+          <input type="hidden" name="access_key" value="2c7d9a84-3e54-4db4-bb5c-20b919e12aa2"/>
+          <input type="hidden" name="subject" value="New Workshop Registration – ENRISERS"/>
+          <input type="hidden" name="from_name" value="ENRISERS Website"/>
+          <input type="hidden" name="redirect" value="false"/>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fullName">Full Name <span class="req">*</span></label>
+              <input type="text" id="fullName" name="fullName" placeholder="Your full name" required/>
+            </div>
+            <div class="form-group">
+              <label for="mobile">Mobile Number <span class="req">*</span></label>
+              <input type="tel" id="mobile" name="mobile" placeholder="10-digit number" maxlength="10" required/>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="standard">Standard <span class="req">*</span></label>
+              <select id="standard" name="standard" required>
+                <option value="">Select Standard</option>
+                <option value="11th">11th Standard</option>
+                <option value="12th">12th Standard</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="stream">Stream / Group <span class="req">*</span></label>
+              <select id="stream" name="stream" required>
+                <option value="">Select Stream</option>
+                <option value="Maths-Science">Maths-Science</option>
+                <option value="Commerce">Commerce</option>
+                <option value="Arts">Arts</option>
+                <option value="Vocational">Vocational</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="schoolName">School Name <span class="req">*</span></label>
+              <input type="text" id="schoolName" name="schoolName" placeholder="Your school name" required/>
+            </div>
+            <div class="form-group">
+              <label for="area">Area / Town <span class="req">*</span></label>
+              <input type="text" id="area" name="area" placeholder="Your area or town" required/>
+            </div>
+          </div>
+          <div class="form-group full">
+            <label for="dream">What is your dream or goal? <span class="req">*</span></label>
+            <textarea id="dream" name="dream" rows="3" placeholder="Tell us your dream, your goal, your ambition..." required></textarea>
+          </div>
+          <div class="form-group full">
+            <label for="challenge">Biggest challenge right now? <span class="optional">(optional)</span></label>
+            <select id="challenge" name="challenge">
+              <option value="">Select a challenge</option>
+              <option value="No guidance">No guidance</option>
+              <option value="Not sure what to choose">Not sure what to choose</option>
+              <option value="Financial constraints">Financial constraints</option>
+              <option value="Family pressure">Family pressure</option>
+              <option value="Lack of information">Lack of information</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="form-group full consent-group">
+            <label class="checkbox-label">
+              <input type="checkbox" id="consent" name="consent" required/>
+              <span class="checkmark"></span>
+              <span>I agree to be contacted by the ENRISERS team via WhatsApp / phone <span class="req">*</span></span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+            <span id="btnText">Register Now — It's FREE 🚀</span>
+            <span id="btnLoading" style="display:none">Submitting...</span>
+          </button>
+        </form>
+
+        <!-- Success State -->
+        <div class="form-success" id="formSuccess" style="display:none">
+          <div class="confetti-wrap" id="confettiWrap"></div>
+          <div class="success-inner">
+            <div class="success-icon">🎉</div>
+            <h3>You're Registered!</h3>
+            <p>Welcome to the ENRISERS family. We've received your details and will reach out on WhatsApp shortly to confirm your spot.</p>
+            <p class="success-sub">Keep an eye on your WhatsApp — exciting things are coming your way!</p>
+            <div class="success-tagline">Padippom • Pagirvom • Parappom</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FLAGSHIP PROGRAMS ============ -->
+  <section class="section programs-section" id="programs">
+    <div class="container">
+      <div class="section-label reveal-up">What We Offer</div>
+      <h2 class="section-title reveal-up delay-1">Flagship Programs</h2>
+      <p class="section-subtitle reveal-up delay-2">Structured programs designed to transform potential into purpose.</p>
+      <div class="programs-grid">
+        <div class="program-card reveal-up delay-1">
+          <div class="program-num">01</div>
+          <div class="program-icon">🗺️</div>
+          <h3>Career Path Awareness Program</h3>
+          <p>School visits with interactive 1-hour sessions covering diverse career options, pathways, and real-world requirements across all fields.</p>
+          <div class="program-tag">School Visits</div>
+        </div>
+        <div class="program-card reveal-up delay-2">
+          <div class="program-num">02</div>
+          <div class="program-icon">🌟</div>
+          <h3>Dream Builders Mentorship Program</h3>
+          <p>Long-term, personalized mentorship for students selected at workshops — guiding them step-by-step toward their career goals.</p>
+          <div class="program-tag">Mentorship</div>
+        </div>
+        <div class="program-card reveal-up delay-3">
+          <div class="program-num">03</div>
+          <div class="program-icon">🧭</div>
+          <h3>Career Compass Workshops</h3>
+          <p>Full-day events featuring guest speakers, strength assessments, career panels, and one-on-one guidance sessions for 11th & 12th students.</p>
+          <div class="program-tag">Workshops</div>
+        </div>
+        <div class="program-card reveal-up delay-4">
+          <div class="program-num">04</div>
+          <div class="program-icon">🤖</div>
+          <h3>AI & Communication Programs</h3>
+          <p>Practical training in AI tools, public speaking, and professional communication — skills that give students a decisive edge in today's world.</p>
+          <div class="program-tag">Skills</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-label reveal-up">Get In Touch</div>
+      <h2 class="section-title reveal-up delay-1">Contact ENRISERS</h2>
+      <p class="section-subtitle reveal-up delay-2">We're just a message away. Reach out — we'd love to hear from you.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <strong>Address</strong>
+              <p>Karupasamy Kovil Street, Alangulam – 627851<br/>Tenkasi District, Tamil Nadu</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <strong>Email</strong>
+              <p><a href="mailto:enriserscollective@gmail.com">enriserscollective@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📱</div>
+            <div>
+              <strong>Instagram</strong>
+              <p><a href="https://instagram.com/enrisers" target="_blank">@enrisers</a></p>
+            </div>
+          </div>
+          <div class="contact-btns">
+            <a href="https://wa.me/917604898367?text=Hi%20ENRISERS%20team!%20I%20want%20to%20know%20more%20about%20your%20workshop.%20My%20name%20is%3A%20%0AStandard%3A%20%0ASchool%3A%20%0AMy%20question%3A%20"
+               target="_blank" class="btn btn-primary">
+              💬 WhatsApp Us
+            </a>
+            <a href="https://instagram.com/enrisers" target="_blank" class="btn btn-outline">
+              📸 Follow @enrisers
+            </a>
+          </div>
+        </div>
+        <div class="volunteer-card reveal-right">
+          <div class="vol-icon">🙋</div>
+          <h3>Want to Join Us?</h3>
+          <p>Are you a professional, educator, or student who wants to volunteer as a mentor or speaker? We'd love to have you onboard.</p>
+          <p class="vol-sub">Together, we can reach more students, more schools, more dreams.</p>
+          <a href="https://wa.me/917604898367?text=Hi%20ENRISERS!%20I'd%20like%20to%20volunteer.%0AMy%20name%3A%20%0ABackground%3A%20%0AHow%20I%20can%20help%3A%20"
+             target="_blank" class="btn btn-gold">
+            Join as Volunteer / Mentor
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img src="logo.png" alt="ENRISERS" class="footer-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'"/>
+          <div class="footer-logo-text" style="display:none">ENRISERS</div>
+          <p class="footer-tagline">Padippom • Pagirvom • Parappom</p>
+          <p class="footer-sub">Empower • Enlighten • Elevate</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#what-we-do">What We Do</a></li>
+            <li><a href="#workshop">Workshop</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Connect</h4>
+          <a href="https://instagram.com/enrisers" target="_blank" class="social-link">📸 @enrisers</a>
+          <a href="mailto:enriserscollective@gmail.com" class="social-link">✉️ Email Us</a>
+          <a href="https://wa.me/917604898367" target="_blank" class="social-link">💬 WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 ENRISERS Collective, Alangulam, Tenkasi. Built with passion, powered by purpose.</p>
+        <p class="footer-quote">"Dream is not what you see in sleep; it is the thing that does not let you sleep." — Dr. APJ Abdul Kalam</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ FLOATING WHATSAPP ============ -->
+  <a href="https://wa.me/917604898367?text=Hi%20ENRISERS!%20I%20want%20to%20know%20more%20about%20your%20workshop%20%F0%9F%9A%80"
+     target="_blank" class="wa-float" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="16" cy="16" r="16" fill="#25D366"/>
+      <path d="M23.5 8.5A10.5 10.5 0 0 0 8.1 22.4L7 25l2.7-1.1A10.5 10.5 0 1 0 23.5 8.5zm-7.5 16a8.7 8.7 0 0 1-4.4-1.2l-.3-.2-2 .5.5-1.9-.2-.3A8.7 8.7 0 1 1 16 24.5zm4.8-6.5c-.3-.1-1.6-.8-1.8-.9s-.4-.1-.6.1-.7.9-.8 1.1-.3.2-.5.1a7.2 7.2 0 0 1-2.1-1.3 7.9 7.9 0 0 1-1.5-1.8c-.1-.3 0-.5.1-.6l.4-.5.3-.5v-.5l-.9-2.1c-.2-.5-.5-.5-.7-.5h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.5 4c.6.3 1.1.4 1.5.3a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c0-.1-.2-.2-.5-.3z" fill="white"/>
+    </svg>
+    <span class="wa-pulse"></span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
